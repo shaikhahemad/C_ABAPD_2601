@@ -19,7 +19,7 @@ CLASS ZCL_7171_AGENCY_MODEL IMPLEMENTATION.
   METHOD get_agency.
     SELECT SINGLE FROM zc_abapd_agency
     FIELDS *
-    WHERE agencyId = @i_agency
+    WHERE agencyId = @i_agency 
     INTO @r_agency.
 
     IF sy-subrc <> 0.
