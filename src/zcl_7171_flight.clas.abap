@@ -4,7 +4,7 @@ CLASS zcl_7171_flight DEFINITION
 
   PUBLIC SECTION.
     DATA carrier_id    TYPE /dmo/carrier_id READ-ONLY .
-    DATA connection_id TYPE /dmo/connection_id READ-ONLY .
+    DATA connection_id TYPE /dmo/connection_id READ-ONLY . 
     DATA airport_from  TYPE /dmo/airport_from_id READ-ONLY .
     DATA airport_to    TYPE /dmo/airport_to_id READ-ONLY .
     METHODS constructor
