@@ -1,0 +1,10 @@
+@EndUserText.label: 'Acess Control For Z7171_AGENCY'
+@MappingRole: true
+define role Z7171_AGENCY {
+   grant
+ select
+ on
+ Z7171_AGENCY
+ where
+ (AgencyId) = ASpect PFcg_auth ( /LRN/AGCY, /LRN/AGCY, ACTVT='03' );
+}
