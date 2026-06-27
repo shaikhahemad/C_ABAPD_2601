@@ -35,7 +35,7 @@ CLASS ZCX_7171_NO_AGENCY IMPLEMENTATION.
     super->constructor( previous = previous ).
 
     me->agency_id = agency_id.
-    CLEAR me->textid.
+    CLEAR me->textid. 
 
     " Idiomatic textid pattern — allows callers to override message
     IF textid IS INITIAL.
