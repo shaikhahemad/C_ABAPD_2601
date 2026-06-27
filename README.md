@@ -1,0 +1,3 @@
+# C_ABAPD_2601
+Practice artifacts and hands-on exercises for the SAP Certified Associate – Back-End Developer (ABAP Cloud) C_ABAPD_2601 exam.
+This repository contains practice artifacts created during preparation for the SAP Certified Associate – Back-End Developer (ABAP Cloud) (C_ABAPD_2601) exam. It includes hands-on exercises covering core ABAP Cloud development topics such as object-oriented ABAP, Core Data Services (CDS), the RESTful Application Programming Model (RAP), Open SQL with HANA Code Pushdown, OData V4 service development, and Fiori Elements UI. All artifacts were developed on SAP BTP ABAP Environment or SAP S/4HANA using ABAP Development Tools (ADT) in Eclipse, following ABAP Cloud–compliant patterns and Tier-1 API usage.
